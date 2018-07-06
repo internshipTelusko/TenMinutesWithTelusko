@@ -2,7 +2,6 @@
     <string name="app_name">TenMinutesWithTelusko</string>
 
 
-
     <string name="q1">Which of the following would compile without error?</string>
     <string name="a1">int a = Math.abs(-5);</string>
     <string name="b1">int b = Math.abs(5.0);</string>

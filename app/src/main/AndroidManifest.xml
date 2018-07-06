@@ -22,7 +22,6 @@
         <activity android:name=".Register" />
         <activity android:name=".Start" />
         <activity android:name=".Course" />
-        <activity android:name=".Result" />
         <activity android:name=".Quiz"></activity>
     </application>
 
