@@ -1,4 +1,4 @@
-package com.example.mohanmmohadikar.tenminuteswithtelusko;
+package com.telusko.learning.tenminuteswithtelusko;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

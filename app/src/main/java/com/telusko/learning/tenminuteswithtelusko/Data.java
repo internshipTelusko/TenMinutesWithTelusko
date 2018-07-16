@@ -1,4 +1,4 @@
-package com.example.mohanmmohadikar.tenminuteswithtelusko;
+package com.telusko.learning.tenminuteswithtelusko;
 
 /**
  * Created by mohanmmohadikar on 7/6/18.

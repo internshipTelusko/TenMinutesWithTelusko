@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context="com.example.mohanmmohadikar.tenminuteswithtelusko.Course">
+    tools:context="com.telusko.learning.tenminuteswithtelusko.Course">
 
     <TextView
         android:id="@+id/tv1"
@@ -18,8 +18,10 @@
         android:textSize="36sp" />
 
     <TextView
+        android:background="@color/colorPrimaryDark"
         android:id="@+id/tv2"
-        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/tv1"
         android:layout_alignBottom="@+id/tv1"
@@ -31,6 +33,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:background="@color/colorPrimary"
         android:id="@+id/tv3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

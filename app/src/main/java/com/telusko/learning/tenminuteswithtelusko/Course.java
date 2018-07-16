@@ -1,4 +1,4 @@
-package com.example.mohanmmohadikar.tenminuteswithtelusko;
+package com.telusko.learning.tenminuteswithtelusko;
 
 import android.content.Intent;
 import android.os.CountDownTimer;
@@ -108,8 +108,6 @@ public class Course extends AppCompatActivity {
         String timeLeftFormatted = String.format(Locale.getDefault(),"%02d:%02d", minutes, seconds);
         tv1.setText(timeLeftFormatted);
     }
-
-
 
     @Override
     public void onBackPressed() {

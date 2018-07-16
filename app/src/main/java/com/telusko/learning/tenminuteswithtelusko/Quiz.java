@@ -1,4 +1,4 @@
-package com.example.mohanmmohadikar.tenminuteswithtelusko;
+package com.telusko.learning.tenminuteswithtelusko;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -27,7 +27,15 @@ public class Quiz extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         qlist = new ArrayList<>();
+        createData();
 
+        adap = new MyAdapter(qlist, this);
+
+
+        recyclerView.setAdapter(adap);
+    }
+    public void createData()
+    {
         Data q1 = new Data(
 
                 1,
@@ -92,9 +100,5 @@ public class Quiz extends AppCompatActivity {
         qlist.add(q5);
 
 
-        adap = new MyAdapter(qlist, this);
-
-
-        recyclerView.setAdapter(adap);
     }
 }
